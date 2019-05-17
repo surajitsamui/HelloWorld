@@ -4,7 +4,11 @@ public class TestClass {
 
 	public static void main(String[] args) {
 		
-		System.out.println("HelloWorld");
+		Person prs=new Person();
+		prs.setPrsId(123);
+		prs.setAge(23);
+		prs.setPrsName("Surajit");
+		System.out.println("HelloWorld" + prs);
 
 	}
 
